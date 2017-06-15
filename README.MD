@@ -6,6 +6,8 @@ Please clone the Chinese word-segmentation tools https://github.com/thunlp/THULA
 
 And clone a caffe repo into ./caffe
 
+Download a pre-trained VGG-16 model trained on ImageNet with caffe.
+
 # Platform：
 tensorflow 1.0
 
