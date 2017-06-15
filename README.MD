@@ -8,15 +8,19 @@ caffe
 
 Model Architecture：
 	Image -> vgg16 -> 4096-d feature -> fc1 -> fc2 -> distance(image, text)
+	
 	Text TF-IDF or GMM feature -> fc1 -> concat -> fc2 ->  distance(image, text)
+	
 	Reference：
+	
 	《Learning two-branch neural networks for image-text matching tasks》
+	
 	《Fisher Vectors Derived from Hybrid Gaussian-Laplacian Mixture Models for Image Annotation》
 
 Files：
+
     caffe-recurrent/
 	- extract_feature.py # extract features using VGG-16
-
 
     Tensorflow/
 	-BidirectionNet_tfidf.py # train using tfidf feature
@@ -35,5 +39,5 @@ Files：
 	-kmeans_word2vec.py cluster based on word2vec (fasttext word2vec is recommended. Search 'fasttext' repo)
 
 Key of performance improvment：
-	model ensemble
-	OCR
+    model ensemble
+    OCR
