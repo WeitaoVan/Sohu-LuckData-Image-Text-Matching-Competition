@@ -3,7 +3,8 @@ We won the third prize.
 
 # Requirements
 Please clone the Chinese word-segmentation tools https://github.com/thunlp/THULAC-Python into ./NLP
-Please clone a caffe repo into ./caffe
+
+And clone a caffe repo into ./caffe
 
 # Platform：
 tensorflow 1.0
@@ -17,7 +18,7 @@ caffe
 	
 	Text TF-IDF or GMM feature -> fc1 ->  fc2 ->  distance(image, text)
 	
-# Reference：
+# References：
 
 《Learning two-branch neural networks for image-text matching tasks》
 
@@ -29,9 +30,9 @@ caffe
 	- extract_feature.py # extract features using VGG-16
 
     Tensorflow/
-	-BidirectionNet_tfidf.py # train using tfidf feature
+	-BidirectionNet_tfidf.py # train using the tfidf features
 	-BidirectionNet_lstm.py # train lstm
-	-test_match_pairList.py # generate matching result(top-10) using image/text embeddings.
+	-test_match_pairList.py # generate the matching result (top-10) using image/text embeddings.
 
     NLP/
 	-run_SH_split.py # word segmentation and generate vocabulary
