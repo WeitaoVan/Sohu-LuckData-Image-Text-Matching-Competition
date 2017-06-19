@@ -52,4 +52,4 @@ caffe
 
 model ensemble
 
-OCR
+OCR （which we did not use）
